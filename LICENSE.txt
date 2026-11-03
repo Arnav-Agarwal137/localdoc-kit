@@ -1,0 +1,35 @@
+LocalDoc Kit - licence and terms of use
+
+Copyright (c) 2026 Arnav Agarwal. All rights reserved.
+
+1. Using the app. You may use LocalDoc Kit free of charge, for personal or work use, and you may share
+   the unmodified app, including this file and THIRD-PARTY-NOTICES.md, with anyone, free of charge.
+
+2. What you may not do without written permission: sell the app, or charge for access to it; publish a changed
+   copy of it; or publish it, or any substantial part of it, under another name. Publishing the source code
+   does not grant these rights: it is published so that anyone can read and check what the app does.
+
+3. Other people's parts. The app uses parts made by others, listed with their licences in
+   THIRD-PARTY-NOTICES.md and, in full, inside the app under "Licences and privacy". Each of those parts is
+   governed by its own licence, and nothing in these terms limits any right those licences give you.
+
+4. No warranty. The app is provided "as is", without warranty of any kind, express or implied, including the
+   warranties of merchantability, fitness for a particular purpose and non-infringement. Keep your own copy of
+   any file before you change it, and check every result before you rely on it, submit it or send it.
+
+5. Limitation of liability. To the fullest extent the law allows, the author is not liable for any claim,
+   damages or other liability, whether in contract, tort or otherwise, arising from or in connection with the
+   app or its use, including lost or damaged files, rejected applications or forms, and missed deadlines.
+
+6. Health tools. The prescription, lab report and medicine leaflet tools give general educational information
+   only. They are not a medical device, do not diagnose, treat, cure or prevent any condition, and are not
+   medical advice. Always ask a doctor or pharmacist before you start, stop or change any treatment.
+
+7. Forms, legal and government documents. Tools that explain, fill or reshape notices, forms, orders or
+   official documents give general information, not legal advice, and are not connected with or approved by
+   any government body, court, college or company named in them. Check every result against the official
+   source before you submit anything.
+
+8. Privacy. The app's privacy policy is privacy.html, published beside it.
+
+9. Law. These terms are governed by the laws of India.

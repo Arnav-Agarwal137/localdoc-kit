@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<meta name="description" content="Privacy policy of LocalDoc Kit: your files are worked on, on your own phone.">
+<style>
+/* A till receipt for a visit that took nothing: the policy's whole claim is "itemised: zero", so the page is the slip
+   that proves it. Every fact here is read from the code (PRIVACY-FACTS-2026-10-10.md); change both together. */
+:root {
+  --paper: #fbfaf6; --ink: #22211d; --faint: #6b675e; --rule: #b9b3a6; --mark: #1f6f5c; --bg: #e9e6de;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --paper: #1d1c19; --ink: #ecebe6; --faint: #a7a296; --rule: #4a463e; --mark: #6fc7ad; --bg: #121210; }
+}
+:root[data-theme="dark"] { --paper: #1d1c19; --ink: #ecebe6; --faint: #a7a296; --rule: #4a463e; --mark: #6fc7ad; --bg: #121210; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+.slip { max-width: 40rem; margin: 2rem auto; padding: 1.5rem 1.25rem 2rem; background: var(--paper);
+  box-shadow: 0 1px 0 var(--rule), 0 10px 30px rgba(0,0,0,.08); position: relative; }
+.slip::before, .slip::after { content: ""; position: absolute; left: 0; right: 0; height: 10px;
+  background: radial-gradient(circle at 5px 0, transparent 5px, var(--paper) 5.5px) 0 0 / 10px 10px repeat-x; }
+.slip::before { top: -10px; transform: scaleY(-1); }
+.slip::after { bottom: -10px; }
+@media (max-width: 42rem) { .slip { margin: 1rem 16px; } }
+.mono { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; }
+header { text-align: center; border-bottom: 2px dashed var(--rule); padding-bottom: 1rem; }
+header h1 { font-size: 1.35rem; margin: .2rem 0; letter-spacing: .04em; }
+header p { margin: .1rem 0; color: var(--faint); font-size: .85rem; }
+table.tally { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .9rem; }
+.tally td { padding: .2rem 0; border-bottom: 1px dotted var(--rule); }
+.tally td:last-child { text-align: right; white-space: nowrap; }
+.tally tr.total td { border-bottom: 0; border-top: 2px solid var(--ink); font-weight: 700; padding-top: .45rem; }
+h2 { font-size: 1.05rem; margin: 1.6rem 0 .4rem; padding-top: .9rem; border-top: 1px dashed var(--rule); }
+h2 .mono { color: var(--mark); font-size: .85rem; margin-right: .4rem; }
+ul { padding-left: 1.2rem; } li { margin: .25rem 0; }
+a { color: var(--mark); }
+.foot { text-align: center; color: var(--faint); font-size: .8rem; border-top: 2px dashed var(--rule); margin-top: 2rem; padding-top: 1rem; }
+.todo { background: #fff3b0; color: #3a3000; padding: 0 .25rem; }
+</style>
+</head>
+<body>
+<main class="slip">
+  <header class="mono">
+    <p>LOCALDOC KIT</p>
+    <h1>Privacy Policy</h1>
+    <p>In force from 10 October 2026</p>
+  </header>
+
+  <table class="tally mono" aria-label="What the app takes from you">
+    <tr><td>Files uploaded to us</td><td>0</td></tr>
+    <tr><td>Accounts or sign-ins</td><td>0</td></tr>
+    <tr><td>Analytics, trackers, adverts</td><td>0</td></tr>
+    <tr><td>Servers of ours that see your data</td><td>0</td></tr>
+    <tr class="total"><td>Personal data collected by us</td><td>NONE</td></tr>
+  </table>
+
+  <p>LocalDoc Kit is a page that runs in your phone's web browser. It converts, shrinks, reads and edits your
+  files <b>on your own phone</b>. We do not run a server that receives your files or your details, so we cannot see,
+  keep, sell or share them. This policy explains exactly what the app does touch, so you can check it.</p>
+
+  <h2><span class="mono">01</span>Your files</h2>
+  <p>Files you choose are read and rebuilt inside your browser, on your phone. They are not uploaded and the app does
+  not store them; when you close the page they are gone from it. The only exceptions are the two tools in section 03,
+  which tell you before they send anything.</p>
+
+  <h2><span class="mono">02</span>What is kept on your phone</h2>
+  <p>A few things are remembered in your browser's own storage on your phone, never sent to us:</p>
+  <ul>
+    <li><b>Your details</b>, only if you save them (name, parents' names, date of birth, gender, address, PIN code,
+      phone, email, category, blood group and, if you type it, your Aadhaar number), to fill forms for you. They are
+      kept as plain text in this browser until you tap <i>Forget them</i>. Anyone who can use your phone's browser
+      could read them, so save them only on a phone you control.</li>
+    <li><b>AI keys</b> for Google Gemini or Groq, only if you tick <i>remember</i>.</li>
+    <li><b>Word lists</b> made for a book (clear them with <i>Forget the saved word lists</i>), and your reading
+      place and text size in the Book reader.</li>
+    <li><b>The speech model</b>, once downloaded, so it need not be downloaded again.</li>
+  </ul>
+  <p>Clearing this site's data in your browser settings removes all of it.</p>
+
+  <h2><span class="mono">03</span>When the app uses the internet</h2>
+  <ul>
+    <li><b>Downloading its own tools.</b> The first time you use a bigger tool (a PDF reader, the text recogniser, a
+      speech or translation model), the app downloads that tool from public software hosts: jsDelivr, cdnjs, PyPI
+      (files.pythonhosted.org) and Hugging Face. Nothing from your files is sent. These hosts, like any website, see
+      your device's internet (IP) address when it asks them for a file.</li>
+    <li><b>"Is this book free?"</b> sends the book title you type to Open Library, Wikidata and Google Books, to look
+      the book up. If you paste in your own Google Books key, it goes only to Google Books with that look-up, and is
+      kept in this browser only if you tick &ldquo;Remember it&rdquo;.</li>
+    <li><b>"Book words"</b> sends parts of a book's text to Google Gemini, or to Groq, only if you paste in your own
+      key <i>and</i> tick "Yes, send this book's text" for that book.</li>
+  </ul>
+  <p>Those services' own privacy policies apply to what they receive. The app shows a counter that names every
+  internet request made after you choose a file, so you can see this for yourself. The single-file copy of the app
+  fetches nothing at all when it opens.</p>
+
+  <h2><span class="mono">04</span>Phone permissions</h2>
+  <ul>
+    <li><b>Microphone</b>: only when you tap <i>Start the microphone</i>; the speech is turned into text on your
+      phone.</li>
+    <li><b>Camera</b>: only through your phone's own camera, when you choose to take a photo as a file.</li>
+    <li><b>Clipboard</b>: the app can copy text to it when you tap a copy button; it does not read it.</li>
+  </ul>
+  <p>The app does not use your location, contacts, notifications or anything else on the phone.</p>
+
+  <h2><span class="mono">05</span>Children</h2>
+  <p>The app collects no personal data from anyone, children included. A child's parent or guardian should decide
+  whether the child saves details in the browser (section 02).</p>
+
+  <h2><span class="mono">06</span>Health tools</h2>
+  <p>The prescription, lab report and medicine leaflet tools give general educational information only. They are not a
+  medical device and not medical advice. They work on your phone and send nothing.</p>
+
+  <h2><span class="mono">07</span>Your rights, and India's law</h2>
+  <p>Because we collect and process no personal data, there is nothing held by us to access, correct or delete under
+  India's Digital Personal Data Protection Act, 2023 or any similar law. Everything the app keeps is on your phone and
+  in your control, as section 02 describes.</p>
+
+  <h2><span class="mono">08</span>Changes and contact</h2>
+  <p>If the app ever starts to send or keep anything new, this policy will be changed first, with a new date at the
+  top. Questions: <a id="contact" href="mailto:arnavagarwal3316@gmail.com">arnavagarwal3316@gmail.com</a>.</p>
+
+  <p class="foot mono">Thank you for visiting. You leave with everything you brought.</p>
+</main>
+</body>
+</html>
