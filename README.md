@@ -30,7 +30,15 @@ result against the official source before you submit it.
 
 ## Licence
 
-Free to use and to share unchanged. All rights reserved; see [LICENSE.txt](LICENSE.txt). The app comes with no
-warranty. The parts made by others, and their licences, are listed in
-[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md), and their full licence texts are inside the app under
-"Licences and privacy".
+Free noncommercial use and private improvements are permitted for newly licensed original work.
+Share the official links freely. Redistributing copies, publishing modified versions, public mirrors,
+rebranding, and commercial use require Arnav Agarwal's prior written permission.
+Keep authorship and required notices. This is a source-available custom licence, not an open-source licence.
+Earlier licence grants and third-party rights remain in force; see [LICENSE-HISTORY.md](LICENSE-HISTORY.md).
+Previously published source, embedded app notices, tags and downloadable binaries retain their earlier grants;
+this policy does not retroactively prohibit their previously permitted use or distribution.
+
+Full terms: [LICENSE.txt](LICENSE.txt). Permission requests: [GitHub issues](https://github.com/Arnav-Agarwal137/localdoc-kit/issues).
+
+Third-party notices: [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). Health, official-document and privacy terms remain applicable.
+
